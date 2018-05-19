@@ -2,7 +2,7 @@
 
 This projects ilustrates the usages of the component checklist.
 
-#Usage
+# Usage
 
 `<app-checklist [elements]=checklistElements (onClick)="logClickedElement($event)"></app-checklist>`
 
