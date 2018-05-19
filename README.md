@@ -15,7 +15,7 @@ Example:
 
 ## Events
 
-* onClick()
+..* onClick()
 ... `(onClick)="logClickedElement($event)"`
 ... Returns the clicked element in the checklist
 
