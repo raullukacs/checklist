@@ -1,3 +1,23 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+      <h1>Checklist Demo</h1>
+      <p>Click on the list items to cross them off</p>
+
+      <app-checklist [elements]=checklistElements (onClick)="logClickedElement($event)"></app-checklist>
+
+      <button (click)="getSelectedElements()" type="button" class="btn btn-primary">Get Selected Elements</button>
+
+      <button (click)="getSelectedElementIds()" type="button" class="btn btn-primary">Get Selected Elements Ids</button>
+
+      <button (click)="addElement()" type="button" class="btn btn-primary">Add new element</button>
+
+      <br/>
+      <br/>
+      <h3>Action result</h3>
+      {{result}}
+
+    </div>
+  </div>
+</div>

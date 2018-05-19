@@ -1,0 +1,9 @@
+.checklist{
+    list-style: none;
+    max-width: 300px;
+    margin: 40px 0;
+
+    li.list-group-item-success{
+        text-decoration: line-through;
+    }
+}

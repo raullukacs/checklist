@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ChecklistComponent } from './components/checklist/checklist.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChecklistComponent
   ],
   imports: [
     BrowserModule,

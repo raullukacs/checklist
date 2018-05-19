@@ -1,0 +1,9 @@
+<ul class="checklist list-group">
+  <li class="checklist-element list-group-item" 
+      *ngFor="let element of elements" 
+      [ngClass]="{'list-group-item-success':element.checked}"
+      (click)="clickElement(element)">
+      <span class="badge" *ngIf="element.checked">done</span>
+      {{element.label}}
+  </li>
+</ul>
